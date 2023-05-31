@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+
+    <div class="titulo2">
+        <h1>Formulário</h1>
+    </div>
+
+    <div class="form">
+
+        <form action="index.html" method="get" onsubmit="">
+
+            <div class="form-control">
+                <label for="idName">Nome:</label>
+                <input type="text" name="nmName" id="idName" placeholder="Digite seu nome">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="idTel">Telefone:</label>
+                <input type="tel" name="nmTel" id="idTel" placeholder="Digite seu telefone">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="idEmail">E-mail:</label>
+                <input type="email" name="nmEmail" id="idEmail" placeholder="Digite seu e-mail">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="idMsg">Mensagem (opcional):</label>
+                <textarea name="nmMsg" id="idMsg" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="botao">
+                <button type="reset">Resetar</button>
+                <button type="submit" onclick="checkInputs(); return false">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
