@@ -19,7 +19,7 @@ function checkInputs(){
     const tellValue = tell.value.trim()
     const emailValue = email.value.trim()
 
-    if(usernameValue === ""){
+    if(usernameValue === "" ){
         setErrorFor(username, "Preencha esse campo")
     }else{
         setSuccessFor(username)
@@ -42,6 +42,7 @@ function checkInputs(){
         setErrorFor(email, "Email inválido")
     }else{
         setSuccessFor(email)
+        location.href = "index.html"
     }
 }
 
@@ -62,7 +63,7 @@ function setSuccessFor(input){
     formControl.className = "form-control success"
 
   
-    location.href = "index.html"
+    
   
 }
 
