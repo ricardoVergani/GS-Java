@@ -23,6 +23,7 @@ body{
     min-height: 100vh;
     font-family: 'Cabin Sketch';
     background-color: #d8c5a3;
+
 }
 
 .titulo{
@@ -83,6 +84,29 @@ div a:hover{
 .time{
     display: flex;
     justify-content: center;
+}
+
+
+.carrosel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    margin-left: 42%;
+    margin-top: 10%;
+}
+
+.containerCarrosel{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    justify-content: initial;
+}
+
+.containerCarrosel img{
+    object-fit: cover;
+    height: 200px;
+    min-width: 200px;
 }
 
 

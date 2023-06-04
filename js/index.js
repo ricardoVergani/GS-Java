@@ -1,3 +1,4 @@
+// Relogio JS
 
 function updateClock(){
     var now = new Date();
@@ -24,6 +25,9 @@ function initClock(){
 }
 
 
+
+
+// Dark Mode JS
 const isDarkMode = localStorage.getItem('darkMode') === 'true';
 
 
@@ -45,3 +49,29 @@ toggleButton.addEventListener('click', toggleDarkMode);
 if (isDarkMode) {
   document.body.classList.add('dark-mode');
 }
+
+
+
+
+
+// Carrosel JS
+
+
+const imgs = document.getElementById("img")
+const img = document.querySelectorAll("#img img")
+
+let idx = 0;
+
+function carrosel(){
+    idx ++;
+
+    if(idx > img.length - 1){
+        idx = 0;
+    }
+
+    imgs.style.transform = `translateX(${-idx * 200}px)`;
+
+
+}
+
+setInterval(carrosel,1800);
