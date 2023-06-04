@@ -6,9 +6,21 @@
     box-sizing: border-box;
 }
 
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+.dark{
+    width: 100px;
+    height: 100px; 
+    margin: 10px;
+}
+
+
 body{
     font-family: 'Cabin Sketch';
-    background-image: linear-gradient(to right,rgb(49, 174, 47),rgb(199, 233, 6),rgb(81, 230, 6));
+    background-color: #d8c5a3;
 }
 
 .titulo2{

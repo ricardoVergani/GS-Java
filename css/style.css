@@ -5,15 +5,28 @@
     box-sizing: border-box;
 }
 
+.dark-mode {
+    background-color: #333;
+    background-image: linear-gradient(to top,#333,#555,#333);
+    color: #fff;
+  }
+  
+.dark{
+    width: 100px;
+    height: 100px; 
+    margin:10px;
+}
+
 
 
 body{
+    min-height: 100vh;
     font-family: 'Cabin Sketch';
-    background-image: linear-gradient(to right,rgb(49, 174, 47),rgb(199, 233, 6),rgb(81, 230, 6));
+    background-color: #d8c5a3;
 }
 
 .titulo{
-    margin: 20px;
+    margin: 40px;
     display: flex;
     justify-content: center;
     text-shadow: 0px 0px 5px #fff,0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 40px #0ff, 0px 0px 80px #0ff,0px 0px 90px #0ff;
@@ -24,6 +37,7 @@ body{
     height: 2px;
     margin: 40px;
 }
+
 
 
 .secoes{
@@ -45,7 +59,7 @@ div a{
     background-color: black;
     margin-top: 40px;
     min-width: 200px;
-    color: green;
+    color: #fff;
 }
 
 a{
@@ -53,10 +67,22 @@ a{
 }
 
 div a:hover{
-    background-color: rgb(13, 139, 53);
+    background-color: #0ff;
     flex: 2;
     text-transform: uppercase;
-    color: brown;
+    color: #333;
+}
+
+.containerTime{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -78,4 +104,30 @@ h2{
 p{
     margin: 20px;
     text-indent: 40px;
+    text-align: justify;
 }
+
+img{
+    width: 40%;
+    margin-left: 30%; 
+ }
+ 
+ #diaADia img{
+     margin-bottom: 40px;
+ }
+ 
+ #tecnologia img{
+   margin-left: 27%;
+   
+ }
+ 
+ footer{
+     background-color: black;
+     color: #fff;
+     display: flex;
+ }
+ 
+ .rodape{
+     flex: 2;
+ }
+ 
