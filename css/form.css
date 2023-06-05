@@ -12,9 +12,10 @@
   }
   
 .dark{
-    width: 100px;
-    height: 100px; 
+    width: 50px;
+    height: 50px; 
     margin: 10px;
+    border-radius: 6px;
 }
 
 
@@ -26,7 +27,7 @@ body{
 .titulo2{
     display: flex;
     justify-content: center;
-    margin: 40px;
+    margin: 20px;
     text-shadow: 0px 0px 5px #fff,0px 0px 10px #fff, 0px 0px 20px #fff, 0px 0px 40px #0ff, 0px 0px 80px #0ff,0px 0px 90px #0ff;
 }
 
@@ -78,6 +79,7 @@ body{
 .botao{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 button{

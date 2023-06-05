@@ -51,27 +51,21 @@ if (isDarkMode) {
 }
 
 
+// CARROSEL JS
 
 
+let count = 1;
+document.getElementById("radio1").checked = true;
 
-// Carrosel JS
+setInterval( function(){
+   nextImage();
+}, 2000)
 
-
-const imgs = document.getElementById("img")
-const img = document.querySelectorAll("#img img")
-
-let idx = 0;
-
-function carrosel(){
-    idx ++;
-
-    if(idx > img.length - 1){
-        idx = 0;
+function nextImage(){
+   count++;
+   if(count>3){
+     count = 1;
     }
 
-    imgs.style.transform = `translateX(${-idx * 200}px)`;
-
-
+    document.getElementById("radio"+count).checked = true;
 }
-
-setInterval(carrosel,1800);

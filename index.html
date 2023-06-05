@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/index.css">
     <script src="./js/index.js" defer></script>
 </head>
 <body onload="initClock()">
@@ -62,14 +62,40 @@
     </div>
 
 
-    <div class="carrosel">
-        <div class="containerCarrosel" id="img">
-            <img src="./img/fome.jpeg" alt="fome">
-            <img src="./img/Horta_2.jpg" alt="solo">
-            <img src="./img/tech.jpeg" alt="tecnologia no campo">
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+   
+    
+            <div class="slide first">
+                <img src="./img/escassez_da_fome.png" alt="fome">
+            </div>    
+            <div class="slide">
+                <img src="./img/cultivo.png" alt="cultivo">
+            </div>
+            <div class="slide">
+                <img src="./img/sustentabilidade_ambiental.png" alt="sustentabilidade_ambiental">
+            </div>
+
+            <div class="navegation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
         </div>
+        <div class="manual-navegation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
     </div>
     
+    <div class="botaoUnicef">
+        <button>Login da Unicef</button>
+    </div>
 
     <div id="problema">
         <h2>O Problema que a Solução irá Resolver</h2>
