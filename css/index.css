@@ -112,7 +112,10 @@ div a:hover{
 }
 
 .slide img{
-    width: 700px;
+    width: 800px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .manual-navegation{
@@ -121,6 +124,7 @@ div a:hover{
     margin-top: -40px;
     display: flex;
     justify-content: center;
+    margin-left: 7%;
 }
 
 .manual-btn{
@@ -150,7 +154,6 @@ div a:hover{
 }
 
 .navegation-auto div{
-    border: 2px solid #20a6ff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -223,11 +226,11 @@ p{
 img{
     width: 40%;
     margin-left: 30%; 
- }
+}
  
  #diaADia img{
      margin-bottom: 40px;
- }
+}
  
  #tecnologia img{
    margin-left: 27%;
