@@ -69,3 +69,10 @@ function nextImage(){
 
     document.getElementById("radio"+count).checked = true;
 }
+
+
+const botaoUnicef = document.querySelector(".botaoUnicef button");
+
+botaoUnicef.addEventListener("click", ()=>{
+  location.href = "login.html"
+})
