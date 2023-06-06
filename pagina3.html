@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="./js/login.js" defer></script>
+</head>
+<body>
+
+    <div>
+        <img src="./img/darkmode.png" alt="dark" id="toggleButton" class="dark">
+    </div>
+
+
+    <div class="container">
+
+        <div class="titulo">
+            <h1>Login Unicef</h1>
+        </div>
+        <div class="loginForm">
+            <form action="https://www.unicef.org/brazil/comunicados-de-imprensa/relatorio-da-onu-numeros-globais-de-fome-subiram-para-cerca-de-828-milhoes-em-2021" method="get">
+                <div class="form-control">
+                    <label for="idUsername">Nome de Usuário</label>
+                    <input type="text" name="nmUser" id="idUsername" placeholder="Digite seu usuário">
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="nmPass" id="idPass" placeholder="Digite sua senha">
+                    <small>Error Message</small>
+                </div>
+                <div class="botao">
+                    <button type="reset">Resetar</button>
+                    <button type="submit">Logar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="./js/index.js" defer></script>
+</head>
+<body onload="initClock()">
+    
+    <div>
+        <img src="./img/darkmode.png" alt="dark" id="toggleButton" class="dark">
+    </div>
+
+    <div class="titulo">
+        <h1>AgroSense</h1>
+    </div>
+
+    
+    <div class="traco"></div>
+    
+    <h3 class="titulo">Menu: </h3>
+    
+    <div class="secoes">
+        <div id="links">
+            <a href="#problema">Problema</a>
+        </div>
+        <div id="links">
+            <a href="#publico">Público</a>
+        </div>
+        <div id="links">
+            <a href="#tecnologia">Tecnologia</a>
+        </div>
+        <div id="links">
+            <a href="#objetivos">Objetivos</a>
+        </div>
+        <div id="links">
+            <a href="#beneficios">Benefícios</a>
+        </div>
+        <div id="links">
+            <a href="#diaADia">Dia a Dia</a>
+        </div>
+    </div>
+    
+    <div class="containerTime">
+
+        <div class="dateTime">
+            <div class="date">
+                <span id="dayName">Dia</span>,
+                <span id="dayNum">00</span>
+                <span id="month">Mes</span>
+                <span id="year">Ano</span>
+            </div>
+            <div class="time">
+                <span id="hour">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+   
+            
+            <div class="slide first">
+                <img src="./img/escassez_da_fome.png" alt="fome">
+            </div>    
+            <div class="slide">
+                <img src="./img/cultivo.png" alt="cultivo">
+            </div>
+            <div class="slide">
+                <img src="./img/sustentabilidade_ambiental.png" alt="sustentabilidade_ambiental">
+            </div>
+
+            <div class="navegation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+
+        <div class="manual-navegation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+
+    </div>
+    
+    <div class="botaoUnicef">
+        <button>Login da Unicef</button>
+    </div>
+
+    <div id="problema">
+        <h2>O Problema que a Solução irá Resolver</h2>
+    </div>
+    <div class="conteudo">
+        <p>A fome é um desafio global complexo, além da escassez de alimentos. Está ligada a fatores socioeconômicos, políticos e ambientais, exigindo uma abordagem interdisciplinar para ser compreendida e enfrentada.</p>
+        <p>Neste estudo, abordaremos o problema dos agrotóxicos na produção de alimentos, visando colher e consumir alimentos mais saudáveis. Apresentaremos dados estatísticos relevantes para incentivar a busca por soluções eficazes para esse grave problema humanitário.</p>
+        <img src="./img/fome.png" alt="Fome">
+    </div>
+
+    <div class="traco"></div>
+
+    <div id="publico">
+        <h2>Qual o Público que será Impactado</h2>
+        <p>Será bom não apenas para os agricultores, mas também, para a saúde da população como um todo (principalmente os consumidores dos alimentos cultivados).</p>
+        <img src="./img/agricultor-em-um-jardim_1157-24640.png" alt="Agricultor">
+    </div>
+
+    <div class="traco"></div>
+
+    <div id="tecnologia">
+        <h2>Qual a Tecnologia que Pretendemos Utilizar</h2>
+        <p>Planejamos criar um neutralizador de pH inteligente com base em dados de sensores que seram posicionados no solo com a presença de um arduino e motores.<p>
+            <img src="./img/pH_do_solo.png" alt="pH do solo">
+    </div>
+
+    <div class="traco"></div>
+
+    <div id="objetivos">
+        <h2>Quais os Objetivos Pretendemos Alcançar</h2>
+        <p>Nosso objetivo é conscientizar os produtores sobre a saúde do solo, fornecer alertas relevantes, consequentemente ajudando a reduzir a fome e a escassez de alimento.</p>
+        <img src="./img/pessoa_app.png" alt="Pessoa usando app">
+    </div>
+
+    <div class="traco"></div>
+
+    <div id="beneficios">
+        <h2>Quais os Benefícios Oferecidos pela Solução</h2>
+        <p>Nossa solução trará benefícios financeiros para os produtores, reduzindo prejuízos com alimentos impróprios e valorizando seus produtos devido à melhor qualidade.</p>
+        <img src="./img/agricultor_feliz.png" alt="Agricultor Feliz">
+    </div>
+
+    <div class="traco"></div>
+
+    <div id="diaADia">
+        <h2>Como essa Solução pode Ajudar no Dia a Dia das Pessoas que irão Utilizá-la</h2>
+        <p>Nossa solução melhora a saúde dos consumidores, aumenta a produtividade e contribui para combater a fome e a escassez de alimentos.</p>
+        <img src="./img/pessoas_comendo.png" alt="Pessoas Comendo">
+    </div>
+
+    <footer>
+        <div class = "rodape">
+            <p>Contato:</p>
+            <p>Whatsapp: +55 (62) 99999-0000</p>
+            <p>Email: AgroSense@outlook.com.br</p>
+        </div>
+        <div class = "rodape">   
+            <p>Endereço:</p>
+            <p>Av. Nerópolis, 265 - Goiás</p>
+            <p>CEP: 12345-678</p>
+        </div>
+        <div class = "rodape">
+            <p>Direitos autorais</p>
+            <p>Copyright 2023</p>
+            <p>Atendimento: Segunda a Sexta - 9:00 às 18:00</p>
+        </div>
+      </footer>
+</body>
+</html>
