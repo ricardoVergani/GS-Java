@@ -74,5 +74,5 @@ function nextImage(){
 const botaoUnicef = document.querySelector(".botaoUnicef button");
 
 botaoUnicef.addEventListener("click", ()=>{
-  location.href = "login.html"
+  location.href = "pagina3.html"
 })

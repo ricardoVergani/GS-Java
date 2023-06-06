@@ -51,7 +51,7 @@ function checkInputs(){
     }
 
     if(contName === 1 && contTell === 1 && contEmail === 1){
-        location.href = "index.html"
+        location.href = "pagina2.html"
     }
    
 }
